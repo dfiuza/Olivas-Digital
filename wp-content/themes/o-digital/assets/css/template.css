@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* reset de margens */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* para garantir que estes elementos ocuparão toda a tela */
+body, html {
+  font-family: "Arial", "Arial Black", "Segoe UI";
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+.page-header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1e73be), to(#00c3ff));
+  background-image: linear-gradient(to right, #1e73be, #00c3ff);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.content .image {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.content .lists-aside {
+  margin-bottom: 30px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.lists-aside .aside-item {
+  margin-bottom: 30px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.aside-item .content {
+  padding: 30px 20px;
+  text-align: center;
+}
+.aside-item .title {
+  position: relative;
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #1e73be;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.aside-item .title > h3 {
+  color: #fff;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.aside-item .description {
+  max-width: 320px;
+  margin: 20px auto;
+}
+
+.card .rounded {
+  border-radius: 50%;
+}
+
+section .contato {
+  padding: 30px 0;
+  box-shadow: 1px 1px 10px 1px;
+}
+section .contato-info h2 {
+  color: #202020;
+  font-size: 43px;
+  font-weight: normal;
+}
+section .contato-info p {
+  color: #202020;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+section .mapa-container {
+  width: 100%;
+  padding-top: 70%;
+  position: relative;
+}
+section div#mapa {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: gray;
+  width: 100%;
+  height: 100%;
+}
+section .contato-form {
+  padding: 0 30px;
+  margin-top: 40px;
+}
+section .contato-form input[type=text],
+section .contato-form input[type=email],
+section .contato-form input[type=tel] {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 15px;
+  border: solid 1px #e3e3e3;
+  padding-left: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+}
+section .contato-form select {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 15px;
+  border: solid 1px #e3e3e3;
+  padding-left: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+}
+section .contato-form textarea {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 15px;
+  border: solid 1px #e3e3e3;
+  padding: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+  resize: none;
+}
+section .contato-form input[type=submit] {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px 0 rgba(203, 203, 203, 0.2);
+  background-color: #212a97;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+}
+
+footer .banner {
+  background-color: #1e73be;
+}
+
+/*# sourceMappingURL=template.css.map */
